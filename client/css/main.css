@@ -1,0 +1,23 @@
+.navbar {
+  background-color: black;
+}
+
+.navbar .navbar-brand a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 1.5rem;
+  display: block;
+  font-family: sans-serif;
+}
+
+/*.navbar .navbar-brand a::first-letter {
+  font-weight: bold;
+}*/
+.navbar .navbar-brand a::after {
+  content: 'Q';
+  position: absolute;
+  color: orange;
+  font-weight: bold;
+}
+

@@ -1,7 +1,7 @@
 {
   "apps": [{
     "name"       : "web",
-    "script"     : "./index.js",
+    "script"     : "./server/index.js",
     "instances"  : 1,
     "exec_mode"  : "cluster"
   }]
